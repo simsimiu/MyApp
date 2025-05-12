@@ -23,7 +23,7 @@ export default function LoginScreen({ navigation }) {
       <Button
         title="Đăng nhập"
         onPress={() =>
-          navigation.navigate('Main', { username, password })
+          navigation.navigate('Home', { username, password })
         }
       />
     </View>
